@@ -1,0 +1,30 @@
+body .class .other-class{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+}
+
+.class p{
+    background-color: aquamarine;
+    border: solid black 1px;
+    width: 80%;
+}
+
+#id .class p{
+    margin: 2px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
